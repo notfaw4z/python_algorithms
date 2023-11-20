@@ -2,7 +2,7 @@ A = [99, 44, 6, 2, 1, 5, 63, 87, 283, 4, 0]
 
 
 def bubblesort(list):
-    indexing_length = len(A)-1
+    indexing_length = len(list)-1
     sorted = False 
     
     while not sorted:
