@@ -11,7 +11,7 @@ def subArray(A,sums):
         if currentSum == sums:
             return "The subArray sum is found between 0 and index", i
 
-        if (currentSum - sums) in maps:
+        if (currentSum - sums) in maps.keys():
             return "SubArray sum found between index",maps[currentSum -sums] + 1, "to ", i
         maps[currentSum] = i
         print(maps)
